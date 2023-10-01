@@ -1,0 +1,13 @@
+{
+  "name": "beverages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watchSass": "sass -w ./styles/index.scss ./styles/indes.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
