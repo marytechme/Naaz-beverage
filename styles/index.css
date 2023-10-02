@@ -16,7 +16,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px 50px;
 }
 header h1 {
   color: rgb(221, 0, 136);
@@ -133,6 +133,57 @@ header .web-svg svg {
   }
   .img-body-section {
     width: 50%;
+  }
+  .img-body-section p {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .img-body-section button {
+    font-size: 12px;
+    padding: 7px 10px;
+    border: none;
+    background-color: rgb(221, 0, 136);
+    color: white;
+    border-radius: 20px;
+    width: 80%;
+    margin: 20px;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 350px) {
+  header h1 {
+    font-size: 20px;
+  }
+  header h1 span {
+    color: black;
+  }
+  .img-body-section {
+    padding: 70px;
+    width: 100%;
+  }
+  .img-body-section h2 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .img-body-section p {
+    display: none;
+  }
+  .img-body-section button {
+    font-size: 15px;
+    padding: 10px 10px;
+    border: none;
+    background-color: rgb(221, 0, 136);
+    color: white;
+    border-radius: 20px;
+    width: 40%;
+    margin: 20px;
+    font-weight: bold;
+  }
+  .img-body-section button:hover {
+    background-color: white;
+    color: rgb(221, 0, 136);
+    font-weight: bold;
+    transition: 2s;
   }
 }
 
