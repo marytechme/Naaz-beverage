@@ -176,7 +176,6 @@ header .web-svg svg {
   .img-body-section p {
     text-align: center;
     font-size: 15px;
-    font-weight: bold;
   }
   .img-body-section .order {
     display: flex;
@@ -189,6 +188,52 @@ header .web-svg svg {
     font-weight: bold;
     transition: 2s;
   }
+}
+main {
+  width: 80%;
+  padding: 30px;
+  margin: 0 auto;
+}
+main .home {
+  margin: 20px 0;
+}
+main .home h3 {
+  text-align: center;
+  font-size: 30px;
+}
+main .home hr {
+  width: 50px;
+  border: 2px solid rgb(221, 0, 136);
+  border-radius: 20px;
+  margin: 0 auto;
+}
+main .home p {
+  line-height: 34px;
+}
+main .home .mobile-para {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  main {
+    width: 90%;
+  }
+  main .home p {
+    line-height: 34px;
+  }
+  main .home .mobile-para {
+    display: flex;
+  }
+  main .home .web-para {
+    display: none;
+  }
+}
+.our-menu {
+  border: 2px solid black;
+  display: flex;
+}
+.our-menu .our-menu-desc {
+  width: 50px;
 }
 
 /*# sourceMappingURL=index.css.map */
