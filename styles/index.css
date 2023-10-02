@@ -39,6 +39,9 @@ header a:hover {
 header .mobile-svg {
   display: none;
 }
+header .input1 {
+  display: none;
+}
 header .web-svg {
   display: flex;
 }
@@ -48,8 +51,9 @@ header .web-svg input {
   padding: 0 10px;
 }
 header .web-svg svg {
-  width: 20px;
-  border: 2px solid rgb(221, 0, 136);
+  width: 25px;
+  border: none;
+  border-radius: 20px;
   background-color: white;
   margin: 0 10px;
   height: 20px;
@@ -83,6 +87,53 @@ header .web-svg svg {
   background-color: white;
   color: rgb(221, 0, 136);
   font-weight: bold;
+  transition: 2s;
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    padding: 25px 40px;
+  }
+  header h1 span {
+    color: black;
+  }
+  header a {
+    display: none;
+  }
+  header .input1 {
+    display: flex;
+    padding-right: 100px;
+  }
+  header .input1 input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+  }
+  header .mobile-svg {
+    display: flex;
+    width: 30px;
+  }
+  header .web-svg {
+    display: none;
+  }
+  .img-body-section {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 700px) {
+  header {
+    padding: 25px 60px;
+  }
+  header .input1 {
+    display: none;
+  }
+  header .mobile-svg {
+    display: flex;
+    width: 40px;
+  }
+  .img-body-section {
+    width: 50%;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
