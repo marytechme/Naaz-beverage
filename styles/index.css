@@ -49,6 +49,7 @@ header .web-svg input {
   border-radius: 20px;
   border: none;
   padding: 0 10px;
+  outline: none;
 }
 header .web-svg svg {
   width: 25px;
@@ -199,13 +200,13 @@ main .home {
 }
 main .home h3 {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
 }
 main .home hr {
   width: 50px;
   border: 2px solid rgb(221, 0, 136);
   border-radius: 20px;
-  margin: 0 auto;
+  margin: 8px auto;
 }
 main .home p {
   line-height: 34px;
@@ -228,12 +229,148 @@ main .home .mobile-para {
     display: none;
   }
 }
+h3 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+hr {
+  width: 50px;
+  border: 2px solid rgb(221, 0, 136);
+  border-radius: 20px;
+  margin: 8px auto;
+}
+
 .our-menu {
-  border: 2px solid black;
   display: flex;
 }
 .our-menu .our-menu-desc {
-  width: 50px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  box-shadow: 1px 1px 3px 0px rgb(121, 0, 74);
+  background-color: rgb(245, 229, 239);
+  border-radius: 20px;
+  margin: 20px;
+}
+.our-menu .our-menu-desc img {
+  border: none;
+  padding: 10px;
+  border-radius: 45px;
+  background-color: rgb(221, 0, 136);
+  box-shadow: 1px 1px 4px 1px rgb(121, 0, 74);
+  margin: 20px 10px;
+}
+.our-menu .our-menu-desc p {
+  font-size: 13px;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+.our-menu .our-menu-desc .buy-button {
+  width: 70px;
+  padding: 5px 15PX;
+  border: none;
+  background-color: rgb(221, 0, 136);
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 20px;
+  margin: 10px auto;
+}
+.our-menu .our-menu-desc .buy-button:hover {
+  color: rgb(221, 0, 136);
+  background-color: white;
+  border: 2px solid rgb(221, 0, 136);
+  transition: 2s;
+}
+
+@media screen and (max-width: 1000px) {
+  .our-menu {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .our-menu .our-menu-desc {
+    width: 150px;
+  }
+  .our-menu .our-menu-desc p {
+    font-size: 13px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .our-menu .our-menu-desc .buy-button {
+    width: 70px;
+    padding: 5px 15PX;
+    border: none;
+    background-color: rgb(221, 0, 136);
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 20px;
+    margin: 10px auto;
+  }
+  .our-menu .our-menu-desc .buy-button:hover {
+    color: rgb(221, 0, 136);
+    background-color: white;
+    border: 2px solid rgb(221, 0, 136);
+    transition: 2s;
+  }
+}
+.contact {
+  border: none;
+  background-color: rgb(245, 229, 239);
+  margin: 40px 0;
+  padding: 20px;
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+.contact textarea {
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+.contact input {
+  margin: 20px 20px;
+  border: none;
+  padding: 10px 10px;
+  outline: none;
+  border-radius: 20px;
+}
+.contact .send {
+  width: 70px;
+  padding: 5px 15PX;
+  border: none;
+  background-color: rgb(221, 0, 136);
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 20px;
+  margin: 10px auto;
+  text-align: center;
+}
+.contact .send:hover {
+  color: rgb(221, 0, 136);
+  background-color: white;
+  border: 2px solid rgb(221, 0, 136);
+  transition: 2s;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .contact {
+    width: 90%;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
