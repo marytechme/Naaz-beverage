@@ -176,6 +176,7 @@ header .web-svg svg {
   .img-body-section p {
     text-align: center;
     font-size: 15px;
+    font-weight: bold;
   }
   .img-body-section .order {
     display: flex;
