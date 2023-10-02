@@ -1,17 +1,88 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 2 | @import '/Components/nav';
- *   |         ^^^^^^^^^^^^^^^^^
- *   '
- *   styles\index.scss 2:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 2 \2502  @import '/Components/nav';\d\a   \2502          ^^^^^^^^^^^^^^^^^\a   \2575 \a   styles\\index.scss 2:9  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
+
+.navbar {
+  background-image: url(./../asset/bev4.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+header h1 {
+  color: rgb(221, 0, 136);
+}
+header h1 span {
+  color: whitesmoke;
+}
+header .nav-link {
+  display: flex;
+  gap: 50px;
+  padding-top: 5px;
+}
+header a {
+  text-decoration: none;
+  color: black;
+}
+header a:hover {
+  color: rgb(221, 0, 136);
+}
+header .mobile-svg {
+  display: none;
+}
+header .web-svg {
+  display: flex;
+}
+header .web-svg input {
+  border-radius: 20px;
+  border: none;
+  padding: 0 10px;
+}
+header .web-svg svg {
+  width: 20px;
+  border: 2px solid rgb(221, 0, 136);
+  background-color: white;
+  margin: 0 10px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.img-body-section {
+  padding: 70px;
+  width: 35%;
+}
+.img-body-section h2 {
+  font-size: 45px;
+  line-height: 50px;
+}
+.img-body-section p {
+  font-size: 15px;
+  margin-top: 10px;
+}
+.img-body-section button {
+  font-size: 15px;
+  padding: 10px 10px;
+  border: none;
+  background-color: rgb(221, 0, 136);
+  color: white;
+  border-radius: 20px;
+  width: 40%;
+  margin: 20px;
+  font-weight: bold;
+}
+.img-body-section button:hover {
+  background-color: white;
+  color: rgb(221, 0, 136);
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=index.css.map */

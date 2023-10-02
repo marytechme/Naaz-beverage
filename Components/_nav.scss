@@ -2,5 +2,89 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;;
+}
+
+.navbar{
+    background-image: url(./../asset/bev4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+header{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    h1{
+        color: rgb(221, 0, 136);
+
+        span{
+            color: whitesmoke;
+        }
+    }
+    .nav-link{
+        display: flex;
+        gap: 50px;
+        padding-top: 5px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        color: rgb(221, 0, 136);
+    }
+    .mobile-svg{
+        display: none;
+    }
+    .web-svg{
+        display: flex;
+        input{
+            border-radius: 20px;
+            border: none;
+            padding: 0 10px;
+        }
+
+        svg{
+            width: 20px;
+            border: none;
+            background-color: white;
+            margin: 0 10px;
+            height: 20px;
+            margin-top: 5px;
+        }
+    }
+}
+
+.img-body-section{
+    padding: 70px;
+    width: 35%;
+    h2{
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    p{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    button{
+        font-size: 15px;
+        padding: 10px 10px;
+        border: none;
+        background-color: rgb(221, 0, 136);
+        color: white;
+        border-radius: 20px;
+        width: 40%;
+        margin: 20px;
+        font-weight: bold;
+    }
+    button:hover{
+        background-color: white;
+        color: rgb(221, 0, 136);
+        font-weight: bold;
+        transition: 2s;
+
+    }
 }
