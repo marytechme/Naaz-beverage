@@ -10,7 +10,6 @@ hr{
     margin: 8px auto;
 }
 .our-menu{
-    border: 2px solid black;
     padding: 0 30px;
     display: flex;
     width: 100%;
@@ -69,7 +68,7 @@ hr{
         flex-wrap: wrap;
         
         .our-menu-desc{
-            width: 150px;
+            width: 180px;
 
             p{
                 font-size: 13px;
@@ -100,4 +99,23 @@ hr{
         }
     }
     
+}
+
+@media screen and (max-width: 700px) {
+    
+    .our-menu{
+        
+        .our-menu-desc{
+            width: 160px;
+    }
+}
+}
+
+@media screen and (max-width: 500px) {
+    .our-menu{
+
+        .our-menu-desc{
+            width: 140px;
+    }
+}
 }
