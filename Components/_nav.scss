@@ -167,11 +167,14 @@ header{
     }
 }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 500px) {
     
 header{
+    padding: 10px 20px;
     h1{
+        padding: 10px;
         font-size: 20px;
+        
 
         span{
             color: black;
@@ -183,24 +186,21 @@ header{
         padding: 70px;
         width: 100%;
     h2{
-        font-size: 30px;
+        text-align: center;
+        font-size: 40px;
         line-height: 45px;
     }
 
     p{
-       display: none;
+       text-align: center;
+       font-size: 15px;
     }
-    button{
-        font-size: 15px;
-        padding: 10px 10px;
-        border: none;
-        background-color: rgb(221, 0, 136);
-        color: white;
-        border-radius: 20px;
-        width: 40%;
-        margin: 20px;
-        font-weight: bold;
+    .order{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+    
     button:hover{
         background-color: white;
         color: rgb(221, 0, 136);
