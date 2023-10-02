@@ -68,6 +68,9 @@ header .web-svg svg {
   font-size: 45px;
   line-height: 50px;
 }
+.img-body-section h2 .naaz-color {
+  color: rgb(221, 0, 136);
+}
 .img-body-section p {
   font-size: 15px;
   margin-top: 10px;
