@@ -251,6 +251,9 @@ main .about-us p {
   main .home .web-para {
     display: none;
   }
+  main .about-us .web-para {
+    display: none;
+  }
 }
 h3 {
   margin-top: 50px;
@@ -384,6 +387,7 @@ hr {
   padding: 10px 10px;
   outline: none;
   border-radius: 20px;
+  width: 100px;
 }
 .contact .send {
   width: 70px;
