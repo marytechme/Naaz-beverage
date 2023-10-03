@@ -243,10 +243,10 @@ hr {
 }
 
 .our-menu {
-  border: 2px solid black;
   padding: 0 30px;
   display: flex;
   width: 100%;
+  margin: 0;
 }
 .our-menu .our-menu-desc {
   width: 200px;
@@ -296,7 +296,7 @@ hr {
     flex-wrap: wrap;
   }
   .our-menu .our-menu-desc {
-    width: 150px;
+    width: 180px;
   }
   .our-menu .our-menu-desc p {
     font-size: 13px;
@@ -320,6 +320,21 @@ hr {
     background-color: white;
     border: 2px solid rgb(221, 0, 136);
     transition: 2s;
+  }
+}
+@media screen and (max-width: 700px) {
+  .our-menu .our-menu-desc {
+    width: 120px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .our-menu .our-menu-desc {
+    width: 140px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .our-menu .our-menu-desc {
+    width: 120px;
   }
 }
 .contact {

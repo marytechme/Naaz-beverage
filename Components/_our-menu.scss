@@ -13,6 +13,7 @@ hr{
     padding: 0 30px;
     display: flex;
     width: 100%;
+    margin: 0;
     
     .our-menu-desc{
         width: 200px;
@@ -106,7 +107,7 @@ hr{
     .our-menu{
         
         .our-menu-desc{
-            width: 160px;
+            width: 120px;
     }
 }
 }
@@ -116,6 +117,15 @@ hr{
 
         .our-menu-desc{
             width: 140px;
+    }
+}
+}
+
+@media screen and (max-width: 300px) {
+    .our-menu{
+
+        .our-menu-desc{
+            width: 120px;
     }
 }
 }
