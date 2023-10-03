@@ -211,9 +211,28 @@ main .home hr {
 main .home p {
   line-height: 34px;
   width: 70%;
+  text-align: center;
+}
+main .home .web-para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 main .home .mobile-para {
   display: none;
+}
+main .about-us {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+main .about-us p {
+  line-height: 34px;
+  width: 70%;
+  text-align: center;
 }
 
 @media screen and (max-width: 1000px) {
@@ -225,8 +244,120 @@ main .home .mobile-para {
   }
   main .home .mobile-para {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
   }
   main .home .web-para {
+    display: none;
+  }
+}
+h3 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 25px;
+}
+
+hr {
+  width: 50px;
+  border: 2px solid rgb(221, 0, 136);
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.our-menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  flex-direction: row;
+}
+.our-menu .our-menu-desc {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto;
+  background-color: rgb(252, 240, 247);
+  border-radius: 20px;
+}
+.our-menu .our-menu-desc img {
+  height: 130px;
+  margin: 20px 30px;
+  border-radius: 20px;
+}
+.our-menu .our-menu-desc p {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.our-menu .our-menu-desc .buy-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+.our-menu .our-menu-desc button {
+  border: none;
+  background-color: rgb(221, 0, 136);
+  padding: 8px 30px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+.our-menu .our-menu-desc .buy-button:hover {
+  background-color: white;
+  color: rgb(221, 0, 136);
+  transition: 2s;
+  font-weight: bold;
+  border: 2px solid rgb(221, 0, 136);
+}
+
+@media screen and (max-width: 1000px) {
+  .our-menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .our-menu .our-menu-desc {
+    width: 20%;
+    margin: 20px auto;
+  }
+  .our-menu .our-menu-desc img {
+    height: 60px;
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .our-menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .our-menu .our-menu-desc {
+    width: 23%;
+    margin: 20px auto;
+  }
+  .our-menu .our-menu-desc img {
+    height: 65px;
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .our-menu {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .our-menu .our-menu-desc {
+    width: 40%;
+    margin: 20px auto;
+    margin-right: 10px;
+  }
+  .our-menu .our-menu-desc img {
+    height: 90px;
+    padding-top: 0;
+  }
+  .our-menu .our-menu-desc p {
     display: none;
   }
 }
@@ -318,6 +449,26 @@ main .home .mobile-para {
     border: 2px solid rgb(221, 0, 136);
     transition: 2s;
   }
+}
+footer {
+  background-color: rgb(252, 240, 247);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: row-reverse;
+}
+footer svg {
+  width: 20px;
+  margin: 0 10px;
+  padding-top: 20px;
+}
+footer .facebook {
+  width: 40px;
+  margin-top: 50px;
+}
+footer p {
+  text-align: center;
 }
 
 /*# sourceMappingURL=index.css.map */

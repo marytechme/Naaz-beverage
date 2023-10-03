@@ -1,0 +1,22 @@
+footer{
+    background-color: rgb(252, 240, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+
+    svg{
+        width: 20px;
+        margin: 0 10px;
+        padding-top: 20px;
+        
+    }
+    .facebook{
+        width: 40px;
+        margin-top: 50px;
+    }
+    p{
+        text-align: center;
+    }
+}

@@ -1,0 +1,121 @@
+h3{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+hr{
+    width: 50px;
+    border: 2px solid rgb(221, 0, 136);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.our-menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    flex-direction: row;
+
+    .our-menu-desc{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px auto;
+        background-color: rgb(252, 240, 247);
+        border-radius: 20px;
+        
+
+        img{
+            height: 130px;
+            margin: 20px 30px;
+            border-radius: 20px;
+        }
+
+        p{
+            text-align: center;
+            font-size: 15px;
+            margin-top: 10px;
+        }
+        .buy-button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px auto;
+        }
+        button{
+            
+            border: none;
+            background-color: rgb(221, 0, 136);
+            padding: 8px 30px;
+            border-radius: 20px;
+            color: white;
+            font-weight: bold;
+        }
+        .buy-button:hover{
+            background-color: white;
+            color: rgb(221, 0, 136);
+            transition: 2s;
+            font-weight: bold;
+            border: 2px solid rgb(221, 0, 136);
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+  
+    .our-menu{
+        display: flex;
+        flex-wrap: wrap;
+
+        .our-menu-desc{
+            width: 20%;
+            margin: 20px auto;
+
+            img{
+                height: 60px;
+                padding-top: 0;
+       }
+    }
+}
+}
+
+@media screen and (max-width: 700px) {
+    .our-menu{
+        display: flex;
+        flex-wrap: wrap;
+
+        .our-menu-desc{
+            width: 23%;
+            margin: 20px auto;
+
+            img{
+                height: 65px;
+                padding-top: 0;
+       }
+    }
+}
+}
+
+@media screen and (max-width: 500px) {
+    .our-menu{
+        display: flex;
+        flex-direction: row-reverse;
+
+        .our-menu-desc{
+            width: 40%;
+            margin: 20px auto;
+            margin-right: 10px;
+
+            img{
+                height: 90px;
+                padding-top: 0; 
+            }
+            p{
+                display: none;
+            }
+    }
+}
+}
